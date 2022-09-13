@@ -1,0 +1,1422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01F38E236BE852D7CD4B979F /* Pods_AppMascheroni.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3AB77DB4289D84FE0209689 /* Pods_AppMascheroni.framework */; };
+		1CAADCF21C4F0199174BEE8E /* Pods_AppMascheroniUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 489C85E6CF9F741B8505FFBA /* Pods_AppMascheroniUITests.framework */; };
+		4D0BF92D21221BFB0034BB18 /* NewHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0BF92C21221BFB0034BB18 /* NewHomeVC.swift */; };
+		4D0F2A971F9D1CD0002511AC /* NuovoLibroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D0F2A961F9D1CD0002511AC /* NuovoLibroVC.swift */; };
+		4D1E22DE1F87B28E00F22D50 /* AccessToGoogleVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E22DD1F87B28E00F22D50 /* AccessToGoogleVC.swift */; };
+		4D1E22E01F893BED00F22D50 /* AccessToVC1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D1E22DF1F893BED00F22D50 /* AccessToVC1.swift */; };
+		4D262A1B1F8FF94F00267B56 /* ChatContactsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D262A1A1F8FF94F00267B56 /* ChatContactsVC.swift */; };
+		4D262A1D1F8FF97300267B56 /* Contatto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D262A1C1F8FF97300267B56 /* Contatto.swift */; };
+		4D2C20A3212EF41100E87294 /* segmented.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2C20A2212EF41100E87294 /* segmented.swift */; };
+		4D2C20A7212F55A300E87294 /* SelectedMateriaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2C20A6212F55A300E87294 /* SelectedMateriaVC.swift */; };
+		4D2E2EC4202A4D0300E6D8D9 /* OrarioVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E2EC3202A4D0200E6D8D9 /* OrarioVC.swift */; };
+		4D2E2EC72030F4DD00E6D8D9 /* MailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E2EC62030F4DC00E6D8D9 /* MailVC.swift */; };
+		4D2E2ECB2032539000E6D8D9 /* mailCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2E2EC92032539000E6D8D9 /* mailCell.swift */; };
+		4D2E2ECC2032539000E6D8D9 /* mailCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D2E2ECA2032539000E6D8D9 /* mailCell.xib */; };
+		4D2EA22521123760001760A8 /* Session.js in Resources */ = {isa = PBXBuildFile; fileRef = 4D2EA22221123760001760A8 /* Session.js */; };
+		4D2EA22621123760001760A8 /* index.js in Resources */ = {isa = PBXBuildFile; fileRef = 4D2EA22321123760001760A8 /* index.js */; };
+		4D2EA22721123760001760A8 /* app.js in Resources */ = {isa = PBXBuildFile; fileRef = 4D2EA22421123760001760A8 /* app.js */; };
+		4D2EA22921149F57001760A8 /* request.js in Resources */ = {isa = PBXBuildFile; fileRef = 4D2EA22821149F57001760A8 /* request.js */; };
+		4D2EA22C2118DF0F001760A8 /* BooksVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2EA22B2118DF0F001760A8 /* BooksVC.swift */; };
+		4D2EE38121244F8600708778 /* MainLibriVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D2EE38021244F8600708778 /* MainLibriVC.swift */; };
+		4D39F72D22529E9300C3AA33 /* NewReg.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D39F72C22529E9300C3AA33 /* NewReg.swift */; };
+		4D39F72F22529F0C00C3AA33 /* NewReg.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D39F72E22529F0C00C3AA33 /* NewReg.storyboard */; };
+		4D49B6EF1FB7957B00004C45 /* AvatarCellCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D49B6EE1FB7957B00004C45 /* AvatarCellCollectionViewCell.swift */; };
+		4D4FAD952026559900DB12A7 /* webViewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4FAD942026559900DB12A7 /* webViewVC.swift */; };
+		4D4FAD9C20266AEB00DB12A7 /* CalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4FAD9720266AEB00DB12A7 /* CalendarVC.swift */; };
+		4D4FAD9D20266AEB00DB12A7 /* Impegni_ImminentiVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4FAD9820266AEB00DB12A7 /* Impegni_ImminentiVC.swift */; };
+		4D4FAD9E20266AEB00DB12A7 /* NuovoEventoVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4FAD9920266AEB00DB12A7 /* NuovoEventoVCViewController.swift */; };
+		4D4FAD9F20266AEB00DB12A7 /* Row_SelectedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4FAD9A20266AEB00DB12A7 /* Row_SelectedVC.swift */; };
+		4D4FADA020266AEB00DB12A7 /* Images_descriptionsVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4FAD9B20266AEB00DB12A7 /* Images_descriptionsVCViewController.swift */; };
+		4D4FADA520266B1A00DB12A7 /* Var e func.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4FADA420266B1A00DB12A7 /* Var e func.swift */; };
+		4D4FADB020266B2300DB12A7 /* Cell1_ConData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4FADA720266B2300DB12A7 /* Cell1_ConData.swift */; };
+		4D4FADB120266B2300DB12A7 /* Cell2_SenzaData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4FADA820266B2300DB12A7 /* Cell2_SenzaData.swift */; };
+		4D4FADB220266B2300DB12A7 /* AddCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4FADA920266B2300DB12A7 /* AddCell.swift */; };
+		4D4FADB320266B2300DB12A7 /* Cell1_ConData.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D4FADAA20266B2300DB12A7 /* Cell1_ConData.xib */; };
+		4D4FADB420266B2300DB12A7 /* AddCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D4FADAB20266B2300DB12A7 /* AddCell.xib */; };
+		4D4FADB520266B2300DB12A7 /* ProgrammaOggiCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4FADAC20266B2300DB12A7 /* ProgrammaOggiCell.swift */; };
+		4D4FADB620266B2300DB12A7 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D4FADAD20266B2300DB12A7 /* CollectionViewCell.swift */; };
+		4D4FADB720266B2300DB12A7 /* Cell2_SenzaData.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D4FADAE20266B2300DB12A7 /* Cell2_SenzaData.xib */; };
+		4D4FADB820266B2300DB12A7 /* ProgrammaOggiCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D4FADAF20266B2300DB12A7 /* ProgrammaOggiCell.xib */; };
+		4D5AF0622045DB210052B9AE /* MappaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D5AF0612045DB210052B9AE /* MappaVC.swift */; };
+		4D6FCC65217622D200F12E10 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D6FCC64217622D200F12E10 /* SettingsVC.swift */; };
+		4D8BEC5920CF135600CE494D /* RegistroVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D8BEC5820CF135600CE494D /* RegistroVC.swift */; };
+		4D905D1F1F954246006E379C /* MaskbooksHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D905D1E1F954245006E379C /* MaskbooksHomeVC.swift */; };
+		4D905D221F954408006E379C /* NIBMaskBooksHomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D905D201F954408006E379C /* NIBMaskBooksHomeTableViewCell.swift */; };
+		4D905D231F954408006E379C /* NIBMaskBooksHomeTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D905D211F954408006E379C /* NIBMaskBooksHomeTableViewCell.xib */; };
+		4D945AE12066E062006C4D9B /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D945AE02066E062006C4D9B /* NotificationCenter.framework */; };
+		4D945AE42066E063006C4D9B /* TodayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D945AE32066E063006C4D9B /* TodayViewController.swift */; };
+		4D945AE72066E063006C4D9B /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D945AE52066E063006C4D9B /* MainInterface.storyboard */; };
+		4D945AEB2066E063006C4D9B /* Mascheroni diario Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4D945ADF2066E062006C4D9B /* Mascheroni diario Widget.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4D9F7F7A217537210034A4EF /* LezioniVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9F7F79217537210034A4EF /* LezioniVC.swift */; };
+		4D9F7F7C217537820034A4EF /* NoteVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9F7F7B217537820034A4EF /* NoteVC.swift */; };
+		4D9F7F7E217538840034A4EF /* AssenzeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D9F7F7D217538840034A4EF /* AssenzeVC.swift */; };
+		4DA342C42342783400114D42 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DA342C32342753D00114D42 /* Home.storyboard */; };
+		4DA342C623427A6300114D42 /* UpdatedHomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DA342C523427A6300114D42 /* UpdatedHomeVC.swift */; };
+		4DAFB53C1F7FE80700C92223 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAFB53B1F7FE80700C92223 /* AppDelegate.swift */; };
+		4DAFB5411F7FE80700C92223 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DAFB53F1F7FE80700C92223 /* Main.storyboard */; };
+		4DAFB5431F7FE80700C92223 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DAFB5421F7FE80700C92223 /* Assets.xcassets */; };
+		4DAFB5461F7FE80700C92223 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DAFB5441F7FE80700C92223 /* LaunchScreen.storyboard */; };
+		4DAFB5511F7FE80700C92223 /* AppMascheroniTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAFB5501F7FE80700C92223 /* AppMascheroniTests.swift */; };
+		4DAFB55C1F7FE80700C92223 /* AppMascheroniUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAFB55B1F7FE80700C92223 /* AppMascheroniUITests.swift */; };
+		4DAFB5711F802CCB00C92223 /* FunctionsAndVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAFB5701F802CCB00C92223 /* FunctionsAndVariables.swift */; };
+		4DAFB5731F80F29900C92223 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DAFB5721F80F29900C92223 /* HomeVC.swift */; };
+		4DB05AFD1FA8DB1F00DA6442 /* noDATATableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB05AFB1FA8DB1E00DA6442 /* noDATATableViewCell.swift */; };
+		4DB05AFE1FA8DB1F00DA6442 /* noDATATableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DB05AFC1FA8DB1E00DA6442 /* noDATATableViewCell.xib */; };
+		4DBB436F2066B8B100E9A89C /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4DBB436D2066B8B100E9A89C /* Model.xcdatamodeld */; };
+		4DBEA9F51F90F17A00F0D449 /* ConsversazioniChatTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBEA9F31F90F17A00F0D449 /* ConsversazioniChatTableViewCell.swift */; };
+		4DBEA9F61F90F17A00F0D449 /* ConsversazioniChatTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DBEA9F41F90F17A00F0D449 /* ConsversazioniChatTableViewCell.xib */; };
+		4DBEA9F81F91484600F0D449 /* NuovoMessaggioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBEA9F71F91484600F0D449 /* NuovoMessaggioViewController.swift */; };
+		4DBEA9FB1F91561B00F0D449 /* NewMessage-TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBEA9F91F91561B00F0D449 /* NewMessage-TableViewCell.swift */; };
+		4DBEA9FC1F91561B00F0D449 /* NewMessage-TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DBEA9FA1F91561B00F0D449 /* NewMessage-TableViewCell.xib */; };
+		4DBEA9FE1F92461100F0D449 /* RealChatVCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DBEA9FD1F92461100F0D449 /* RealChatVCViewController.swift */; };
+		4DC49671207CF81700824D89 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DC49670207CF81700824D89 /* GoogleService-Info.plist */; };
+		4DE473031F8AAC2A00F08EA5 /* Classi-TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE473011F8AAC2A00F08EA5 /* Classi-TableViewCell.swift */; };
+		4DE473041F8AAC2A00F08EA5 /* Classi-TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DE473021F8AAC2A00F08EA5 /* Classi-TableViewCell.xib */; };
+		4DE5617B20961EB200ABA461 /* ActChat2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE5617A20961EB100ABA461 /* ActChat2VC.swift */; };
+		4DE5617D2096223000ABA461 /* ActChat2Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DE5617C2096223000ABA461 /* ActChat2Cell.swift */; };
+		4DEE7122201E6653008A7E0B /* ComunicazioniVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEE7121201E6653008A7E0B /* ComunicazioniVC.swift */; };
+		4DEE7125201FD141008A7E0B /* ComunicazioneTableVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DEE7123201FD141008A7E0B /* ComunicazioneTableVCell.swift */; };
+		4DEE7126201FD141008A7E0B /* ComunicazioneTableVCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DEE7124201FD141008A7E0B /* ComunicazioneTableVCell.xib */; };
+		4DF1F2FC2066F37F004CDBEC /* CoreDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF1F2FB2066F37F004CDBEC /* CoreDataController.swift */; };
+		4DF1F306206D102D004CDBEC /* SelectedBookVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF1F305206D102C004CDBEC /* SelectedBookVC.swift */; };
+		4DF8E8D321B9C5F50054BA1F /* NewRowSelected_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DF8E8D221B9C5F50054BA1F /* NewRowSelected_VC.swift */; };
+		F93E5611CC9D6CA1B94FD4C4 /* Pods_AppMascheroniTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3EB9D9C0EF76301902BAE9CF /* Pods_AppMascheroniTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D945AE92066E063006C4D9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DAFB5301F7FE80700C92223 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D945ADE2066E062006C4D9B;
+			remoteInfo = "Mascheroni diario Widget";
+		};
+		4DAFB54D1F7FE80700C92223 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DAFB5301F7FE80700C92223 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DAFB5371F7FE80700C92223;
+			remoteInfo = AppMascheroni;
+		};
+		4DAFB5581F7FE80700C92223 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4DAFB5301F7FE80700C92223 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4DAFB5371F7FE80700C92223;
+			remoteInfo = AppMascheroni;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4D945AEF2066E063006C4D9B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4D945AEB2066E063006C4D9B /* Mascheroni diario Widget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1697A44D61B894CEB23402B7 /* Pods-AppMascheroniTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppMascheroniTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppMascheroniTests/Pods-AppMascheroniTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3EB9D9C0EF76301902BAE9CF /* Pods_AppMascheroniTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppMascheroniTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		489C85E6CF9F741B8505FFBA /* Pods_AppMascheroniUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppMascheroniUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D0BF92C21221BFB0034BB18 /* NewHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewHomeVC.swift; sourceTree = "<group>"; };
+		4D0F2A961F9D1CD0002511AC /* NuovoLibroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuovoLibroVC.swift; sourceTree = "<group>"; };
+		4D1E22DD1F87B28E00F22D50 /* AccessToGoogleVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessToGoogleVC.swift; sourceTree = "<group>"; };
+		4D1E22DF1F893BED00F22D50 /* AccessToVC1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccessToVC1.swift; sourceTree = "<group>"; };
+		4D262A1A1F8FF94F00267B56 /* ChatContactsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatContactsVC.swift; sourceTree = "<group>"; };
+		4D262A1C1F8FF97300267B56 /* Contatto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contatto.swift; sourceTree = "<group>"; };
+		4D2C20A2212EF41100E87294 /* segmented.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = segmented.swift; sourceTree = "<group>"; };
+		4D2C20A6212F55A300E87294 /* SelectedMateriaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedMateriaVC.swift; sourceTree = "<group>"; };
+		4D2E2EC3202A4D0200E6D8D9 /* OrarioVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrarioVC.swift; sourceTree = "<group>"; };
+		4D2E2EC62030F4DC00E6D8D9 /* MailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailVC.swift; sourceTree = "<group>"; };
+		4D2E2EC92032539000E6D8D9 /* mailCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mailCell.swift; sourceTree = "<group>"; };
+		4D2E2ECA2032539000E6D8D9 /* mailCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = mailCell.xib; sourceTree = "<group>"; };
+		4D2EA22221123760001760A8 /* Session.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = Session.js; sourceTree = "<group>"; };
+		4D2EA22321123760001760A8 /* index.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = index.js; sourceTree = "<group>"; };
+		4D2EA22421123760001760A8 /* app.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = app.js; sourceTree = "<group>"; };
+		4D2EA22821149F57001760A8 /* request.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = request.js; sourceTree = "<group>"; };
+		4D2EA22B2118DF0F001760A8 /* BooksVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksVC.swift; sourceTree = "<group>"; };
+		4D2EE38021244F8600708778 /* MainLibriVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainLibriVC.swift; sourceTree = "<group>"; };
+		4D39F72C22529E9300C3AA33 /* NewReg.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewReg.swift; sourceTree = "<group>"; };
+		4D39F72E22529F0C00C3AA33 /* NewReg.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = NewReg.storyboard; sourceTree = "<group>"; };
+		4D49B6EE1FB7957B00004C45 /* AvatarCellCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarCellCollectionViewCell.swift; sourceTree = "<group>"; };
+		4D4FAD942026559900DB12A7 /* webViewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webViewVC.swift; sourceTree = "<group>"; };
+		4D4FAD9720266AEB00DB12A7 /* CalendarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarVC.swift; sourceTree = "<group>"; };
+		4D4FAD9820266AEB00DB12A7 /* Impegni_ImminentiVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Impegni_ImminentiVC.swift; sourceTree = "<group>"; };
+		4D4FAD9920266AEB00DB12A7 /* NuovoEventoVCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NuovoEventoVCViewController.swift; sourceTree = "<group>"; };
+		4D4FAD9A20266AEB00DB12A7 /* Row_SelectedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Row_SelectedVC.swift; sourceTree = "<group>"; };
+		4D4FAD9B20266AEB00DB12A7 /* Images_descriptionsVCViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Images_descriptionsVCViewController.swift; sourceTree = "<group>"; };
+		4D4FADA420266B1A00DB12A7 /* Var e func.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Var e func.swift"; sourceTree = "<group>"; };
+		4D4FADA720266B2300DB12A7 /* Cell1_ConData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell1_ConData.swift; sourceTree = "<group>"; };
+		4D4FADA820266B2300DB12A7 /* Cell2_SenzaData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell2_SenzaData.swift; sourceTree = "<group>"; };
+		4D4FADA920266B2300DB12A7 /* AddCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCell.swift; sourceTree = "<group>"; };
+		4D4FADAA20266B2300DB12A7 /* Cell1_ConData.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cell1_ConData.xib; sourceTree = "<group>"; };
+		4D4FADAB20266B2300DB12A7 /* AddCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AddCell.xib; sourceTree = "<group>"; };
+		4D4FADAC20266B2300DB12A7 /* ProgrammaOggiCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgrammaOggiCell.swift; sourceTree = "<group>"; };
+		4D4FADAD20266B2300DB12A7 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		4D4FADAE20266B2300DB12A7 /* Cell2_SenzaData.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Cell2_SenzaData.xib; sourceTree = "<group>"; };
+		4D4FADAF20266B2300DB12A7 /* ProgrammaOggiCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProgrammaOggiCell.xib; sourceTree = "<group>"; };
+		4D5AF0612045DB210052B9AE /* MappaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MappaVC.swift; sourceTree = "<group>"; };
+		4D6FCC64217622D200F12E10 /* SettingsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		4D79FCBD1F817BF7001D65B4 /* AppMascheroni-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AppMascheroni-Bridging-Header.h"; sourceTree = "<group>"; };
+		4D8BEC5820CF135600CE494D /* RegistroVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistroVC.swift; sourceTree = "<group>"; };
+		4D905D1E1F954245006E379C /* MaskbooksHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MaskbooksHomeVC.swift; sourceTree = "<group>"; };
+		4D905D201F954408006E379C /* NIBMaskBooksHomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIBMaskBooksHomeTableViewCell.swift; sourceTree = "<group>"; };
+		4D905D211F954408006E379C /* NIBMaskBooksHomeTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NIBMaskBooksHomeTableViewCell.xib; sourceTree = "<group>"; };
+		4D945ADF2066E062006C4D9B /* Mascheroni diario Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Mascheroni diario Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D945AE02066E062006C4D9B /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		4D945AE32066E063006C4D9B /* TodayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayViewController.swift; sourceTree = "<group>"; };
+		4D945AE62066E063006C4D9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		4D945AE82066E063006C4D9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D9F7F79217537210034A4EF /* LezioniVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LezioniVC.swift; sourceTree = "<group>"; };
+		4D9F7F7B217537820034A4EF /* NoteVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoteVC.swift; sourceTree = "<group>"; };
+		4D9F7F7D217538840034A4EF /* AssenzeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssenzeVC.swift; sourceTree = "<group>"; };
+		4DA342C32342753D00114D42 /* Home.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Home.storyboard; path = "/Users/enricoalberti/Library/CloudStorage/iCloud Drive/Desktop/FILES/Coding/Swift/masche/functioning ttos/AppMascheroni/Home.storyboard"; sourceTree = "<absolute>"; };
+		4DA342C523427A6300114D42 /* UpdatedHomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdatedHomeVC.swift; sourceTree = "<group>"; };
+		4DAFB5381F7FE80700C92223 /* AppMascheroni.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppMascheroni.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DAFB53B1F7FE80700C92223 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4DAFB5401F7FE80700C92223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4DAFB5421F7FE80700C92223 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4DAFB5451F7FE80700C92223 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4DAFB5471F7FE80700C92223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DAFB54C1F7FE80700C92223 /* AppMascheroniTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppMascheroniTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DAFB5501F7FE80700C92223 /* AppMascheroniTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMascheroniTests.swift; sourceTree = "<group>"; };
+		4DAFB5521F7FE80700C92223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DAFB5571F7FE80700C92223 /* AppMascheroniUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppMascheroniUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4DAFB55B1F7FE80700C92223 /* AppMascheroniUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMascheroniUITests.swift; sourceTree = "<group>"; };
+		4DAFB55D1F7FE80700C92223 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DAFB5701F802CCB00C92223 /* FunctionsAndVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionsAndVariables.swift; sourceTree = "<group>"; };
+		4DAFB5721F80F29900C92223 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		4DB05AFB1FA8DB1E00DA6442 /* noDATATableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = noDATATableViewCell.swift; sourceTree = "<group>"; };
+		4DB05AFC1FA8DB1E00DA6442 /* noDATATableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = noDATATableViewCell.xib; sourceTree = "<group>"; };
+		4DBB436E2066B8B100E9A89C /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		4DBEA9F31F90F17A00F0D449 /* ConsversazioniChatTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsversazioniChatTableViewCell.swift; sourceTree = "<group>"; };
+		4DBEA9F41F90F17A00F0D449 /* ConsversazioniChatTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ConsversazioniChatTableViewCell.xib; sourceTree = "<group>"; };
+		4DBEA9F71F91484600F0D449 /* NuovoMessaggioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuovoMessaggioViewController.swift; sourceTree = "<group>"; };
+		4DBEA9F91F91561B00F0D449 /* NewMessage-TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NewMessage-TableViewCell.swift"; sourceTree = "<group>"; };
+		4DBEA9FA1F91561B00F0D449 /* NewMessage-TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "NewMessage-TableViewCell.xib"; sourceTree = "<group>"; };
+		4DBEA9FD1F92461100F0D449 /* RealChatVCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealChatVCViewController.swift; sourceTree = "<group>"; };
+		4DC49670207CF81700824D89 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4DE473011F8AAC2A00F08EA5 /* Classi-TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Classi-TableViewCell.swift"; sourceTree = "<group>"; };
+		4DE473021F8AAC2A00F08EA5 /* Classi-TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = "Classi-TableViewCell.xib"; sourceTree = "<group>"; };
+		4DE5617A20961EB100ABA461 /* ActChat2VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActChat2VC.swift; sourceTree = "<group>"; };
+		4DE5617C2096223000ABA461 /* ActChat2Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActChat2Cell.swift; sourceTree = "<group>"; };
+		4DEE7121201E6653008A7E0B /* ComunicazioniVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComunicazioniVC.swift; sourceTree = "<group>"; };
+		4DEE7123201FD141008A7E0B /* ComunicazioneTableVCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComunicazioneTableVCell.swift; sourceTree = "<group>"; };
+		4DEE7124201FD141008A7E0B /* ComunicazioneTableVCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ComunicazioneTableVCell.xib; sourceTree = "<group>"; };
+		4DF1F2FB2066F37F004CDBEC /* CoreDataController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataController.swift; sourceTree = "<group>"; };
+		4DF1F3032066FCAF004CDBEC /* Mascheroni diario Widget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Mascheroni diario Widget.entitlements"; sourceTree = "<group>"; };
+		4DF1F3042066FCB4004CDBEC /* AppMascheroni.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = AppMascheroni.entitlements; sourceTree = "<group>"; };
+		4DF1F305206D102C004CDBEC /* SelectedBookVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectedBookVC.swift; sourceTree = "<group>"; };
+		4DF8E8D221B9C5F50054BA1F /* NewRowSelected_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRowSelected_VC.swift; sourceTree = "<group>"; };
+		5A8F631AF4251F5EB70F0414 /* Pods-AppMascheroniTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppMascheroniTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppMascheroniTests/Pods-AppMascheroniTests.release.xcconfig"; sourceTree = "<group>"; };
+		5CB6F437069F7CB0AAB1232A /* Pods-AppMascheroni.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppMascheroni.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppMascheroni/Pods-AppMascheroni.debug.xcconfig"; sourceTree = "<group>"; };
+		735B84E4768D911D29D5A9F6 /* Pods-AppMascheroniUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppMascheroniUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AppMascheroniUITests/Pods-AppMascheroniUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7720345F1B62837C8689D650 /* Pods-AppMascheroni.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppMascheroni.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppMascheroni/Pods-AppMascheroni.release.xcconfig"; sourceTree = "<group>"; };
+		C980F4EDFD9F1DFC9E7458CC /* Pods-AppMascheroniUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppMascheroniUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AppMascheroniUITests/Pods-AppMascheroniUITests.release.xcconfig"; sourceTree = "<group>"; };
+		F3AB77DB4289D84FE0209689 /* Pods_AppMascheroni.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppMascheroni.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D945ADC2066E062006C4D9B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D945AE12066E062006C4D9B /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DAFB5351F7FE80700C92223 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01F38E236BE852D7CD4B979F /* Pods_AppMascheroni.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DAFB5491F7FE80700C92223 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F93E5611CC9D6CA1B94FD4C4 /* Pods_AppMascheroniTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DAFB5541F7FE80700C92223 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1CAADCF21C4F0199174BEE8E /* Pods_AppMascheroniUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		360C4EFB9C1CCAC90C5D97C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3AB77DB4289D84FE0209689 /* Pods_AppMascheroni.framework */,
+				3EB9D9C0EF76301902BAE9CF /* Pods_AppMascheroniTests.framework */,
+				489C85E6CF9F741B8505FFBA /* Pods_AppMascheroniUITests.framework */,
+				4D945AE02066E062006C4D9B /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3D603AA346334161E4007DFD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CB6F437069F7CB0AAB1232A /* Pods-AppMascheroni.debug.xcconfig */,
+				7720345F1B62837C8689D650 /* Pods-AppMascheroni.release.xcconfig */,
+				1697A44D61B894CEB23402B7 /* Pods-AppMascheroniTests.debug.xcconfig */,
+				5A8F631AF4251F5EB70F0414 /* Pods-AppMascheroniTests.release.xcconfig */,
+				735B84E4768D911D29D5A9F6 /* Pods-AppMascheroniUITests.debug.xcconfig */,
+				C980F4EDFD9F1DFC9E7458CC /* Pods-AppMascheroniUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		4D262A181F8E95F100267B56 /* Classe-type-cell */ = {
+			isa = PBXGroup;
+			children = (
+				4DE473011F8AAC2A00F08EA5 /* Classi-TableViewCell.swift */,
+				4DE473021F8AAC2A00F08EA5 /* Classi-TableViewCell.xib */,
+			);
+			path = "Classe-type-cell";
+			sourceTree = "<group>";
+		};
+		4D262A191F8FF73500267B56 /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				4DBEA9FF1F92525D00F0D449 /* NibsForTableView */,
+				4D262A1A1F8FF94F00267B56 /* ChatContactsVC.swift */,
+				4D262A1C1F8FF97300267B56 /* Contatto.swift */,
+				4DBEA9F71F91484600F0D449 /* NuovoMessaggioViewController.swift */,
+				4DBEA9FD1F92461100F0D449 /* RealChatVCViewController.swift */,
+				4DE5617A20961EB100ABA461 /* ActChat2VC.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		4D2E2EC5202A4D9200E6D8D9 /* orario */ = {
+			isa = PBXGroup;
+			children = (
+				4D2E2EC3202A4D0200E6D8D9 /* OrarioVC.swift */,
+			);
+			path = orario;
+			sourceTree = "<group>";
+		};
+		4D2E2EC82032536100E6D8D9 /* mail */ = {
+			isa = PBXGroup;
+			children = (
+				4D2E2EC62030F4DC00E6D8D9 /* MailVC.swift */,
+				4D2E2EC92032539000E6D8D9 /* mailCell.swift */,
+				4D2E2ECA2032539000E6D8D9 /* mailCell.xib */,
+			);
+			path = mail;
+			sourceTree = "<group>";
+		};
+		4D2EA22121123760001760A8 /* classeviva api */ = {
+			isa = PBXGroup;
+			children = (
+				4D2EA22221123760001760A8 /* Session.js */,
+				4D2EA22821149F57001760A8 /* request.js */,
+				4D2EA22321123760001760A8 /* index.js */,
+				4D2EA22421123760001760A8 /* app.js */,
+			);
+			path = "classeviva api";
+			sourceTree = "<group>";
+		};
+		4D2EA22A2118DEEB001760A8 /* libri */ = {
+			isa = PBXGroup;
+			children = (
+				4D2EA22B2118DF0F001760A8 /* BooksVC.swift */,
+				4D2EE38021244F8600708778 /* MainLibriVC.swift */,
+			);
+			path = libri;
+			sourceTree = "<group>";
+		};
+		4D4FAD9620266AEB00DB12A7 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4D4FAD9720266AEB00DB12A7 /* CalendarVC.swift */,
+				4D4FAD9820266AEB00DB12A7 /* Impegni_ImminentiVC.swift */,
+				4D4FAD9920266AEB00DB12A7 /* NuovoEventoVCViewController.swift */,
+				4D4FAD9B20266AEB00DB12A7 /* Images_descriptionsVCViewController.swift */,
+				4D4FAD9A20266AEB00DB12A7 /* Row_SelectedVC.swift */,
+				4DF8E8D221B9C5F50054BA1F /* NewRowSelected_VC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4D4FADA320266B1A00DB12A7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D4FADA420266B1A00DB12A7 /* Var e func.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4D4FADA620266B2300DB12A7 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4D4FADA720266B2300DB12A7 /* Cell1_ConData.swift */,
+				4D4FADA820266B2300DB12A7 /* Cell2_SenzaData.swift */,
+				4D4FADA920266B2300DB12A7 /* AddCell.swift */,
+				4D4FADAA20266B2300DB12A7 /* Cell1_ConData.xib */,
+				4D4FADAB20266B2300DB12A7 /* AddCell.xib */,
+				4D4FADAC20266B2300DB12A7 /* ProgrammaOggiCell.swift */,
+				4D4FADAD20266B2300DB12A7 /* CollectionViewCell.swift */,
+				4D4FADAE20266B2300DB12A7 /* Cell2_SenzaData.xib */,
+				4D4FADAF20266B2300DB12A7 /* ProgrammaOggiCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		4D4FADBD20266B5800DB12A7 /* diary */ = {
+			isa = PBXGroup;
+			children = (
+				4DF1F2FB2066F37F004CDBEC /* CoreDataController.swift */,
+				4D4FAD9620266AEB00DB12A7 /* Controller */,
+				4D4FADA620266B2300DB12A7 /* Cells */,
+				4D4FADA320266B1A00DB12A7 /* Model */,
+				4DBB436D2066B8B100E9A89C /* Model.xcdatamodeld */,
+			);
+			path = diary;
+			sourceTree = "<group>";
+		};
+		4D5AF0602045DB020052B9AE /* mappa */ = {
+			isa = PBXGroup;
+			children = (
+				4D5AF0612045DB210052B9AE /* MappaVC.swift */,
+			);
+			path = mappa;
+			sourceTree = "<group>";
+		};
+		4D8BEC5720CF131D00CE494D /* Registro */ = {
+			isa = PBXGroup;
+			children = (
+				4D8BEC5820CF135600CE494D /* RegistroVC.swift */,
+				4D2C20A6212F55A300E87294 /* SelectedMateriaVC.swift */,
+				4D9F7F79217537210034A4EF /* LezioniVC.swift */,
+				4D9F7F7B217537820034A4EF /* NoteVC.swift */,
+				4D9F7F7D217538840034A4EF /* AssenzeVC.swift */,
+				4D39F72C22529E9300C3AA33 /* NewReg.swift */,
+			);
+			path = Registro;
+			sourceTree = "<group>";
+		};
+		4D905D1D1F954220006E379C /* MaskBooks */ = {
+			isa = PBXGroup;
+			children = (
+				4D905D1E1F954245006E379C /* MaskbooksHomeVC.swift */,
+				4D905D201F954408006E379C /* NIBMaskBooksHomeTableViewCell.swift */,
+				4D905D211F954408006E379C /* NIBMaskBooksHomeTableViewCell.xib */,
+				4D0F2A961F9D1CD0002511AC /* NuovoLibroVC.swift */,
+				4DF1F305206D102C004CDBEC /* SelectedBookVC.swift */,
+			);
+			path = MaskBooks;
+			sourceTree = "<group>";
+		};
+		4D945AE22066E063006C4D9B /* Mascheroni diario Widget */ = {
+			isa = PBXGroup;
+			children = (
+				4DF1F3032066FCAF004CDBEC /* Mascheroni diario Widget.entitlements */,
+				4D945AE32066E063006C4D9B /* TodayViewController.swift */,
+				4D945AE52066E063006C4D9B /* MainInterface.storyboard */,
+				4D945AE82066E063006C4D9B /* Info.plist */,
+			);
+			path = "Mascheroni diario Widget";
+			sourceTree = "<group>";
+		};
+		4DAFB52F1F7FE80700C92223 = {
+			isa = PBXGroup;
+			children = (
+				4DAFB53A1F7FE80700C92223 /* AppMascheroni */,
+				4DAFB54F1F7FE80700C92223 /* AppMascheroniTests */,
+				4DAFB55A1F7FE80700C92223 /* AppMascheroniUITests */,
+				4D945AE22066E063006C4D9B /* Mascheroni diario Widget */,
+				4DAFB5391F7FE80700C92223 /* Products */,
+				3D603AA346334161E4007DFD /* Pods */,
+				360C4EFB9C1CCAC90C5D97C0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4DAFB5391F7FE80700C92223 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4DAFB5381F7FE80700C92223 /* AppMascheroni.app */,
+				4DAFB54C1F7FE80700C92223 /* AppMascheroniTests.xctest */,
+				4DAFB5571F7FE80700C92223 /* AppMascheroniUITests.xctest */,
+				4D945ADF2066E062006C4D9B /* Mascheroni diario Widget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4DAFB53A1F7FE80700C92223 /* AppMascheroni */ = {
+			isa = PBXGroup;
+			children = (
+				4DF1F3042066FCB4004CDBEC /* AppMascheroni.entitlements */,
+				4DAFB56F1F802C6900C92223 /* Model */,
+				4DAFB56E1F802C5400C92223 /* Controller */,
+				4DAFB53B1F7FE80700C92223 /* AppDelegate.swift */,
+				4DA342C32342753D00114D42 /* Home.storyboard */,
+				4DAFB53F1F7FE80700C92223 /* Main.storyboard */,
+				4D49B6EE1FB7957B00004C45 /* AvatarCellCollectionViewCell.swift */,
+				4DAFB5421F7FE80700C92223 /* Assets.xcassets */,
+				4DAFB5441F7FE80700C92223 /* LaunchScreen.storyboard */,
+				4DAFB5471F7FE80700C92223 /* Info.plist */,
+				4DC49670207CF81700824D89 /* GoogleService-Info.plist */,
+				4D79FCBD1F817BF7001D65B4 /* AppMascheroni-Bridging-Header.h */,
+				4D0BF92C21221BFB0034BB18 /* NewHomeVC.swift */,
+				4D39F72E22529F0C00C3AA33 /* NewReg.storyboard */,
+				4DA342C523427A6300114D42 /* UpdatedHomeVC.swift */,
+			);
+			path = AppMascheroni;
+			sourceTree = "<group>";
+		};
+		4DAFB54F1F7FE80700C92223 /* AppMascheroniTests */ = {
+			isa = PBXGroup;
+			children = (
+				4DAFB5501F7FE80700C92223 /* AppMascheroniTests.swift */,
+				4DAFB5521F7FE80700C92223 /* Info.plist */,
+			);
+			path = AppMascheroniTests;
+			sourceTree = "<group>";
+		};
+		4DAFB55A1F7FE80700C92223 /* AppMascheroniUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4DAFB55B1F7FE80700C92223 /* AppMascheroniUITests.swift */,
+				4DAFB55D1F7FE80700C92223 /* Info.plist */,
+			);
+			path = AppMascheroniUITests;
+			sourceTree = "<group>";
+		};
+		4DAFB56E1F802C5400C92223 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4D2EA22A2118DEEB001760A8 /* libri */,
+				4D8BEC5720CF131D00CE494D /* Registro */,
+				4D5AF0602045DB020052B9AE /* mappa */,
+				4D4FADBD20266B5800DB12A7 /* diary */,
+				4DEE7120201E663B008A7E0B /* Comunicazioni */,
+				4D905D1D1F954220006E379C /* MaskBooks */,
+				4D2EA22121123760001760A8 /* classeviva api */,
+				4D262A191F8FF73500267B56 /* Chat */,
+				4D262A181F8E95F100267B56 /* Classe-type-cell */,
+				4DAFB5721F80F29900C92223 /* HomeVC.swift */,
+				4D1E22DD1F87B28E00F22D50 /* AccessToGoogleVC.swift */,
+				4D1E22DF1F893BED00F22D50 /* AccessToVC1.swift */,
+				4D2E2EC5202A4D9200E6D8D9 /* orario */,
+				4D2E2EC82032536100E6D8D9 /* mail */,
+				4D2C20A2212EF41100E87294 /* segmented.swift */,
+				4D6FCC64217622D200F12E10 /* SettingsVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4DAFB56F1F802C6900C92223 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4DAFB5701F802CCB00C92223 /* FunctionsAndVariables.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4DBEA9FF1F92525D00F0D449 /* NibsForTableView */ = {
+			isa = PBXGroup;
+			children = (
+				4DBEA9F31F90F17A00F0D449 /* ConsversazioniChatTableViewCell.swift */,
+				4DBEA9F41F90F17A00F0D449 /* ConsversazioniChatTableViewCell.xib */,
+				4DBEA9F91F91561B00F0D449 /* NewMessage-TableViewCell.swift */,
+				4DBEA9FA1F91561B00F0D449 /* NewMessage-TableViewCell.xib */,
+				4DB05AFB1FA8DB1E00DA6442 /* noDATATableViewCell.swift */,
+				4DB05AFC1FA8DB1E00DA6442 /* noDATATableViewCell.xib */,
+				4DE5617C2096223000ABA461 /* ActChat2Cell.swift */,
+			);
+			path = NibsForTableView;
+			sourceTree = "<group>";
+		};
+		4DEE7120201E663B008A7E0B /* Comunicazioni */ = {
+			isa = PBXGroup;
+			children = (
+				4DEE7121201E6653008A7E0B /* ComunicazioniVC.swift */,
+				4DEE7123201FD141008A7E0B /* ComunicazioneTableVCell.swift */,
+				4DEE7124201FD141008A7E0B /* ComunicazioneTableVCell.xib */,
+				4D4FAD942026559900DB12A7 /* webViewVC.swift */,
+			);
+			path = Comunicazioni;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D945ADE2066E062006C4D9B /* Mascheroni diario Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D945AEC2066E063006C4D9B /* Build configuration list for PBXNativeTarget "Mascheroni diario Widget" */;
+			buildPhases = (
+				4D945ADB2066E062006C4D9B /* Sources */,
+				4D945ADC2066E062006C4D9B /* Frameworks */,
+				4D945ADD2066E062006C4D9B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Mascheroni diario Widget";
+			productName = "Mascheroni diario Widget";
+			productReference = 4D945ADF2066E062006C4D9B /* Mascheroni diario Widget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		4DAFB5371F7FE80700C92223 /* AppMascheroni */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DAFB5601F7FE80700C92223 /* Build configuration list for PBXNativeTarget "AppMascheroni" */;
+			buildPhases = (
+				EBFC21280BEB532A998E3BC6 /* [CP] Check Pods Manifest.lock */,
+				4DAFB5341F7FE80700C92223 /* Sources */,
+				4DAFB5351F7FE80700C92223 /* Frameworks */,
+				4DAFB5361F7FE80700C92223 /* Resources */,
+				2C75DB9580FEE91B1FF87850 /* [CP] Embed Pods Frameworks */,
+				CBA6B59CE6594529A9810669 /* [CP] Copy Pods Resources */,
+				4D945AEF2066E063006C4D9B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D945AEA2066E063006C4D9B /* PBXTargetDependency */,
+			);
+			name = AppMascheroni;
+			productName = AppMascheroni;
+			productReference = 4DAFB5381F7FE80700C92223 /* AppMascheroni.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4DAFB54B1F7FE80700C92223 /* AppMascheroniTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DAFB5631F7FE80700C92223 /* Build configuration list for PBXNativeTarget "AppMascheroniTests" */;
+			buildPhases = (
+				BF6537CB76F179F4D1059354 /* [CP] Check Pods Manifest.lock */,
+				4DAFB5481F7FE80700C92223 /* Sources */,
+				4DAFB5491F7FE80700C92223 /* Frameworks */,
+				4DAFB54A1F7FE80700C92223 /* Resources */,
+				4F41CEE2259E25755C25311D /* [CP] Embed Pods Frameworks */,
+				3847BF7D8AB926786DB05B72 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DAFB54E1F7FE80700C92223 /* PBXTargetDependency */,
+			);
+			name = AppMascheroniTests;
+			productName = AppMascheroniTests;
+			productReference = 4DAFB54C1F7FE80700C92223 /* AppMascheroniTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4DAFB5561F7FE80700C92223 /* AppMascheroniUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4DAFB5661F7FE80700C92223 /* Build configuration list for PBXNativeTarget "AppMascheroniUITests" */;
+			buildPhases = (
+				51E542FD2CDC0526146E5125 /* [CP] Check Pods Manifest.lock */,
+				4DAFB5531F7FE80700C92223 /* Sources */,
+				4DAFB5541F7FE80700C92223 /* Frameworks */,
+				4DAFB5551F7FE80700C92223 /* Resources */,
+				649D47B01DD792EFFF8D247C /* [CP] Embed Pods Frameworks */,
+				7E90D8D0F9EE0F446403D3F0 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4DAFB5591F7FE80700C92223 /* PBXTargetDependency */,
+			);
+			name = AppMascheroniUITests;
+			productName = AppMascheroniUITests;
+			productReference = 4DAFB5571F7FE80700C92223 /* AppMascheroniUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4DAFB5301F7FE80700C92223 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Enrico Alberti";
+				TargetAttributes = {
+					4D945ADE2066E062006C4D9B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+					4DAFB5371F7FE80700C92223 = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					4DAFB54B1F7FE80700C92223 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4DAFB5371F7FE80700C92223;
+					};
+					4DAFB5561F7FE80700C92223 = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4DAFB5371F7FE80700C92223;
+					};
+				};
+			};
+			buildConfigurationList = 4DAFB5331F7FE80700C92223 /* Build configuration list for PBXProject "AppMascheroni" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4DAFB52F1F7FE80700C92223;
+			productRefGroup = 4DAFB5391F7FE80700C92223 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4DAFB5371F7FE80700C92223 /* AppMascheroni */,
+				4DAFB54B1F7FE80700C92223 /* AppMascheroniTests */,
+				4DAFB5561F7FE80700C92223 /* AppMascheroniUITests */,
+				4D945ADE2066E062006C4D9B /* Mascheroni diario Widget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D945ADD2066E062006C4D9B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D945AE72066E063006C4D9B /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DAFB5361F7FE80700C92223 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DA342C42342783400114D42 /* Home.storyboard in Resources */,
+				4DAFB5461F7FE80700C92223 /* LaunchScreen.storyboard in Resources */,
+				4D4FADB420266B2300DB12A7 /* AddCell.xib in Resources */,
+				4DC49671207CF81700824D89 /* GoogleService-Info.plist in Resources */,
+				4D2E2ECC2032539000E6D8D9 /* mailCell.xib in Resources */,
+				4D4FADB820266B2300DB12A7 /* ProgrammaOggiCell.xib in Resources */,
+				4DB05AFE1FA8DB1F00DA6442 /* noDATATableViewCell.xib in Resources */,
+				4D2EA22721123760001760A8 /* app.js in Resources */,
+				4DEE7126201FD141008A7E0B /* ComunicazioneTableVCell.xib in Resources */,
+				4DE473041F8AAC2A00F08EA5 /* Classi-TableViewCell.xib in Resources */,
+				4D39F72F22529F0C00C3AA33 /* NewReg.storyboard in Resources */,
+				4D905D231F954408006E379C /* NIBMaskBooksHomeTableViewCell.xib in Resources */,
+				4D2EA22521123760001760A8 /* Session.js in Resources */,
+				4DAFB5431F7FE80700C92223 /* Assets.xcassets in Resources */,
+				4D4FADB720266B2300DB12A7 /* Cell2_SenzaData.xib in Resources */,
+				4D2EA22921149F57001760A8 /* request.js in Resources */,
+				4D2EA22621123760001760A8 /* index.js in Resources */,
+				4DBEA9FC1F91561B00F0D449 /* NewMessage-TableViewCell.xib in Resources */,
+				4DBEA9F61F90F17A00F0D449 /* ConsversazioniChatTableViewCell.xib in Resources */,
+				4DAFB5411F7FE80700C92223 /* Main.storyboard in Resources */,
+				4D4FADB320266B2300DB12A7 /* Cell1_ConData.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DAFB54A1F7FE80700C92223 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DAFB5551F7FE80700C92223 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2C75DB9580FEE91B1FF87850 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AppMascheroni/Pods-AppMascheroni-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ALTextInputBar/ALTextInputBar.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Canvas/Canvas.framework",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/DropDown/DropDown.framework",
+				"${BUILT_PRODUCTS_DIR}/FSCalendar/FSCalendar.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMOAuth2/GTMOAuth2.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/INSPhotoGallery/INSPhotoGallery.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework",
+				"${BUILT_PRODUCTS_DIR}/JGProgressHUD/JGProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQMessagesViewController/JSQMessagesViewController.framework",
+				"${BUILT_PRODUCTS_DIR}/JSQSystemSoundPlayer/JSQSystemSoundPlayer.framework",
+				"${BUILT_PRODUCTS_DIR}/JSSAlertView/JSSAlertView.framework",
+				"${BUILT_PRODUCTS_DIR}/Kanna/Kanna.framework",
+				"${BUILT_PRODUCTS_DIR}/Postal/Postal.framework",
+				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
+				"${BUILT_PRODUCTS_DIR}/RevealingSplashView/RevealingSplashView.framework",
+				"${BUILT_PRODUCTS_DIR}/SkeletonView/SkeletonView.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/UICircularProgressRing/UICircularProgressRing.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ALTextInputBar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Canvas.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DropDown.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FSCalendar.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMOAuth2.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/INSPhotoGallery.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManager.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JGProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQMessagesViewController.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSQSystemSoundPlayer.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSSAlertView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Kanna.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Postal.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RevealingSplashView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkeletonView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/UICircularProgressRing.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppMascheroni/Pods-AppMascheroni-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3847BF7D8AB926786DB05B72 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppMascheroniTests/Pods-AppMascheroniTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4F41CEE2259E25755C25311D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppMascheroniTests/Pods-AppMascheroniTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		51E542FD2CDC0526146E5125 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppMascheroniUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		649D47B01DD792EFFF8D247C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppMascheroniUITests/Pods-AppMascheroniUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7E90D8D0F9EE0F446403D3F0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppMascheroniUITests/Pods-AppMascheroniUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF6537CB76F179F4D1059354 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppMascheroniTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CBA6B59CE6594529A9810669 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AppMascheroni/Pods-AppMascheroni-resources.sh",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AppMascheroni/Pods-AppMascheroni-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBFC21280BEB532A998E3BC6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppMascheroni-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D945ADB2066E062006C4D9B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D945AE42066E063006C4D9B /* TodayViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DAFB5341F7FE80700C92223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D2EE38121244F8600708778 /* MainLibriVC.swift in Sources */,
+				4DA342C623427A6300114D42 /* UpdatedHomeVC.swift in Sources */,
+				4D4FAD952026559900DB12A7 /* webViewVC.swift in Sources */,
+				4D2E2EC4202A4D0300E6D8D9 /* OrarioVC.swift in Sources */,
+				4D39F72D22529E9300C3AA33 /* NewReg.swift in Sources */,
+				4DF8E8D321B9C5F50054BA1F /* NewRowSelected_VC.swift in Sources */,
+				4DB05AFD1FA8DB1F00DA6442 /* noDATATableViewCell.swift in Sources */,
+				4D8BEC5920CF135600CE494D /* RegistroVC.swift in Sources */,
+				4D9F7F7A217537210034A4EF /* LezioniVC.swift in Sources */,
+				4D1E22E01F893BED00F22D50 /* AccessToVC1.swift in Sources */,
+				4D4FAD9D20266AEB00DB12A7 /* Impegni_ImminentiVC.swift in Sources */,
+				4D4FAD9C20266AEB00DB12A7 /* CalendarVC.swift in Sources */,
+				4D6FCC65217622D200F12E10 /* SettingsVC.swift in Sources */,
+				4D4FADA520266B1A00DB12A7 /* Var e func.swift in Sources */,
+				4DE5617D2096223000ABA461 /* ActChat2Cell.swift in Sources */,
+				4DE5617B20961EB200ABA461 /* ActChat2VC.swift in Sources */,
+				4D4FADB020266B2300DB12A7 /* Cell1_ConData.swift in Sources */,
+				4D4FADB120266B2300DB12A7 /* Cell2_SenzaData.swift in Sources */,
+				4D4FADB620266B2300DB12A7 /* CollectionViewCell.swift in Sources */,
+				4D262A1B1F8FF94F00267B56 /* ChatContactsVC.swift in Sources */,
+				4D2E2EC72030F4DD00E6D8D9 /* MailVC.swift in Sources */,
+				4D5AF0622045DB210052B9AE /* MappaVC.swift in Sources */,
+				4DE473031F8AAC2A00F08EA5 /* Classi-TableViewCell.swift in Sources */,
+				4D905D221F954408006E379C /* NIBMaskBooksHomeTableViewCell.swift in Sources */,
+				4D4FAD9E20266AEB00DB12A7 /* NuovoEventoVCViewController.swift in Sources */,
+				4D2EA22C2118DF0F001760A8 /* BooksVC.swift in Sources */,
+				4D9F7F7C217537820034A4EF /* NoteVC.swift in Sources */,
+				4DF1F2FC2066F37F004CDBEC /* CoreDataController.swift in Sources */,
+				4D9F7F7E217538840034A4EF /* AssenzeVC.swift in Sources */,
+				4D4FADA020266AEB00DB12A7 /* Images_descriptionsVCViewController.swift in Sources */,
+				4D49B6EF1FB7957B00004C45 /* AvatarCellCollectionViewCell.swift in Sources */,
+				4DEE7122201E6653008A7E0B /* ComunicazioniVC.swift in Sources */,
+				4D1E22DE1F87B28E00F22D50 /* AccessToGoogleVC.swift in Sources */,
+				4D2E2ECB2032539000E6D8D9 /* mailCell.swift in Sources */,
+				4DBEA9FB1F91561B00F0D449 /* NewMessage-TableViewCell.swift in Sources */,
+				4DAFB5731F80F29900C92223 /* HomeVC.swift in Sources */,
+				4DBEA9FE1F92461100F0D449 /* RealChatVCViewController.swift in Sources */,
+				4DBB436F2066B8B100E9A89C /* Model.xcdatamodeld in Sources */,
+				4DBEA9F81F91484600F0D449 /* NuovoMessaggioViewController.swift in Sources */,
+				4D2C20A3212EF41100E87294 /* segmented.swift in Sources */,
+				4D2C20A7212F55A300E87294 /* SelectedMateriaVC.swift in Sources */,
+				4D0BF92D21221BFB0034BB18 /* NewHomeVC.swift in Sources */,
+				4DEE7125201FD141008A7E0B /* ComunicazioneTableVCell.swift in Sources */,
+				4D4FADB520266B2300DB12A7 /* ProgrammaOggiCell.swift in Sources */,
+				4D262A1D1F8FF97300267B56 /* Contatto.swift in Sources */,
+				4DF1F306206D102D004CDBEC /* SelectedBookVC.swift in Sources */,
+				4D905D1F1F954246006E379C /* MaskbooksHomeVC.swift in Sources */,
+				4DAFB53C1F7FE80700C92223 /* AppDelegate.swift in Sources */,
+				4D4FAD9F20266AEB00DB12A7 /* Row_SelectedVC.swift in Sources */,
+				4D0F2A971F9D1CD0002511AC /* NuovoLibroVC.swift in Sources */,
+				4D4FADB220266B2300DB12A7 /* AddCell.swift in Sources */,
+				4DBEA9F51F90F17A00F0D449 /* ConsversazioniChatTableViewCell.swift in Sources */,
+				4DAFB5711F802CCB00C92223 /* FunctionsAndVariables.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DAFB5481F7FE80700C92223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DAFB5511F7FE80700C92223 /* AppMascheroniTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4DAFB5531F7FE80700C92223 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4DAFB55C1F7FE80700C92223 /* AppMascheroniUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D945AEA2066E063006C4D9B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D945ADE2066E062006C4D9B /* Mascheroni diario Widget */;
+			targetProxy = 4D945AE92066E063006C4D9B /* PBXContainerItemProxy */;
+		};
+		4DAFB54E1F7FE80700C92223 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DAFB5371F7FE80700C92223 /* AppMascheroni */;
+			targetProxy = 4DAFB54D1F7FE80700C92223 /* PBXContainerItemProxy */;
+		};
+		4DAFB5591F7FE80700C92223 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4DAFB5371F7FE80700C92223 /* AppMascheroni */;
+			targetProxy = 4DAFB5581F7FE80700C92223 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D945AE52066E063006C4D9B /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D945AE62066E063006C4D9B /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+		4DAFB53F1F7FE80700C92223 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DAFB5401F7FE80700C92223 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4DAFB5441F7FE80700C92223 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DAFB5451F7FE80700C92223 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D945AED2066E063006C4D9B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Mascheroni diario Widget/Mascheroni diario Widget.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N5MULV2646;
+				INFOPLIST_FILE = "Mascheroni diario Widget/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = it.liceomascheroni.alberti.Mascheroni.widgetDiario;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4D945AEE2066E063006C4D9B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "Mascheroni diario Widget/Mascheroni diario Widget.entitlements";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N5MULV2646;
+				INFOPLIST_FILE = "Mascheroni diario Widget/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = it.liceomascheroni.alberti.Mascheroni.widgetDiario;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4DAFB55E1F7FE80700C92223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4DAFB55F1F7FE80700C92223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4DAFB5611F7FE80700C92223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CB6F437069F7CB0AAB1232A /* Pods-AppMascheroni.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = AppMascheroni/AppMascheroni.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N5MULV2646;
+				INFOPLIST_FILE = AppMascheroni/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = it.liceomascheroni.alberti.Mascheroni;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AppMascheroni/AppMascheroni-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4DAFB5621F7FE80700C92223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7720345F1B62837C8689D650 /* Pods-AppMascheroni.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = AppMascheroni/AppMascheroni.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = N5MULV2646;
+				INFOPLIST_FILE = AppMascheroni/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = it.liceomascheroni.alberti.Mascheroni;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "AppMascheroni/AppMascheroni-Bridging-Header.h";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4DAFB5641F7FE80700C92223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1697A44D61B894CEB23402B7 /* Pods-AppMascheroniTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E74G9RED7W;
+				INFOPLIST_FILE = AppMascheroniTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = enricoalberti.AppMascheroniTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppMascheroni.app/AppMascheroni";
+			};
+			name = Debug;
+		};
+		4DAFB5651F7FE80700C92223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A8F631AF4251F5EB70F0414 /* Pods-AppMascheroniTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E74G9RED7W;
+				INFOPLIST_FILE = AppMascheroniTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = enricoalberti.AppMascheroniTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AppMascheroni.app/AppMascheroni";
+			};
+			name = Release;
+		};
+		4DAFB5671F7FE80700C92223 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 735B84E4768D911D29D5A9F6 /* Pods-AppMascheroniUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E74G9RED7W;
+				INFOPLIST_FILE = AppMascheroniUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = enricoalberti.AppMascheroniUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AppMascheroni;
+			};
+			name = Debug;
+		};
+		4DAFB5681F7FE80700C92223 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C980F4EDFD9F1DFC9E7458CC /* Pods-AppMascheroniUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = E74G9RED7W;
+				INFOPLIST_FILE = AppMascheroniUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = enricoalberti.AppMascheroniUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AppMascheroni;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D945AEC2066E063006C4D9B /* Build configuration list for PBXNativeTarget "Mascheroni diario Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D945AED2066E063006C4D9B /* Debug */,
+				4D945AEE2066E063006C4D9B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DAFB5331F7FE80700C92223 /* Build configuration list for PBXProject "AppMascheroni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DAFB55E1F7FE80700C92223 /* Debug */,
+				4DAFB55F1F7FE80700C92223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DAFB5601F7FE80700C92223 /* Build configuration list for PBXNativeTarget "AppMascheroni" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DAFB5611F7FE80700C92223 /* Debug */,
+				4DAFB5621F7FE80700C92223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DAFB5631F7FE80700C92223 /* Build configuration list for PBXNativeTarget "AppMascheroniTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DAFB5641F7FE80700C92223 /* Debug */,
+				4DAFB5651F7FE80700C92223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4DAFB5661F7FE80700C92223 /* Build configuration list for PBXNativeTarget "AppMascheroniUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4DAFB5671F7FE80700C92223 /* Debug */,
+				4DAFB5681F7FE80700C92223 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4DBB436D2066B8B100E9A89C /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4DBB436E2066B8B100E9A89C /* Model.xcdatamodel */,
+			);
+			currentVersion = 4DBB436E2066B8B100E9A89C /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4DAFB5301F7FE80700C92223 /* Project object */;
+}

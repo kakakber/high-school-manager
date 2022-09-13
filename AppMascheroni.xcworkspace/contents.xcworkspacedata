@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:/Users/enricoalberti/Library/CloudStorage/iCloud Drive/Desktop/FILES/Coding/Swift/masche/functioning ttos/AppMascheroni/Home.storyboard">
+   </FileRef>
+   <FileRef
+      location = "absolute:/Users/enricoalberti/Library/CloudStorage/iCloud Drive/Desktop/FILES/Coding/Swift/masche/functioning ttos/AppMascheroni/Home.storyboard">
+   </FileRef>
+   <FileRef
+      location = "group:Immagini+CoreDataProperties.swift">
+   </FileRef>
+   <FileRef
+      location = "group:Immagini+CoreDataClass.swift">
+   </FileRef>
+   <FileRef
+      location = "group:AppMascheroni.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
